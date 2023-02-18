@@ -74,7 +74,7 @@
 
    #home::before{
     content:"";
-    background:url('../images/food bg.jpg');
+    background:url('./images/food bg.jpg');
     position:absolute;
     top:0px;
     left:0px;
@@ -132,7 +132,7 @@
    #client-section::before{
     content:"";
     position:absolute;
-    background: url('./images/google.jpg');
+    background: url('');
     width:100%;
     height:100%;
     z-index:-1;
@@ -161,7 +161,7 @@
         height:100%;
         z-index:-1;
         opacity:0.7;
-        background:url('../images/contact us.jpg') no-repeat center center/cover;
+        background:url('./images/contact us.jpg') no-repeat center center/cover;
     }
 
     #contact-box{
